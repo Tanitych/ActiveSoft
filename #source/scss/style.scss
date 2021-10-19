@@ -902,6 +902,13 @@ main {
 }
 
 .section5 {
+  margin: 0px 0px 120px 0px;
+  @media (max-width: 992px) {
+    margin: 0px 0px 90px 0px;
+  }
+  @media (max-width: 768px) {
+    margin: 0px 0px 50px 0px;
+  }
   .title {
     font-size: 69.8px;
     line-height: 110%;
@@ -956,6 +963,106 @@ main {
     }
     @media (max-width: 768px) {
       font-size: 20px;
+    }
+  }
+}
+
+.section6 {
+  .title {
+    font-size: 70.5px;
+    line-height: 71px;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    color: #000000;
+    margin: 0px 0px 45px 0px;
+    @media (max-width: 1200px) {
+      font-size: 55px;
+      line-height: 110%;
+    }
+    @media (max-width: 992px) {
+      font-size: 45px;
+      margin: 0px 0px 30px 0px;
+      text-align: center;
+    }
+    @media (max-width: 768px) {
+      font-size: 30px;
+      margin: 0px 0px 20px 0px;
+    }
+  }
+}
+.section6_content {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 992px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right_content {
+    padding: 0px 0px 0px 68px;
+    @media (max-width: 992px) {
+      display: flex;
+      padding: 0px 0px 0px 0px;
+    }
+    @media (max-width: 590px) {
+      flex-direction: column;
+    }
+    .item {
+      position: relative;
+      padding: 0px 0px 0px 33px;
+      margin-bottom: 45px;
+      @media (max-width: 1200px) {
+        margin-bottom: 35px;
+      }
+      @media (max-width: 992px) {
+        margin: 0px 0px 0px 0px;
+        &:nth-child(2) {
+          margin: 0px 20px;
+        }
+      }
+      @media (max-width: 590px) {
+        margin: 0px 0px 15px 0px;
+        &:nth-child(2) {
+          margin: 0px 0px 15px 0px;
+        }
+      }
+      .text {
+        font-size: 32.6px;
+        line-height: 33px;
+        font-weight: 400;
+        letter-spacing: -0.05em;
+        color: #000000;
+        max-width: 415px;
+        @media (max-width: 992px) {
+          max-width: unset;
+          font-size: 24px;
+          line-height: 110%;
+        }
+        @media (max-width: 768px) {
+          font-size: 20px;
+        }
+      }
+      .span_bl {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        .span_it {
+          width: 19px;
+          height: 19px;
+          background-color: #fcce00;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+  .left {
+    @media (max-width: 992px) {
+      margin: 10px 0px 0px 0px;
+    }
+    img {
+      max-width: 100%;
     }
   }
 }
