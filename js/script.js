@@ -16,3 +16,28 @@ $(function () {
 $(function () {
     $("#phone3").mask("+7(999) 999-9999");
 });
+
+$(document).ready(function () {
+    $('.slider').slick({
+        arrows: false,
+        dots: false,
+        slidesToShow: 1,
+        autoplay: false,
+        speed: 1000,
+        autoplaySpeed: 800,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1
+                }
+            },
+            {
+                breakpoint: 550,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+});
