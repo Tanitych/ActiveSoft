@@ -1072,6 +1072,13 @@ main {
 }
 
 .section7 {
+  margin: 0px 0px 100px 0px;
+  @media (max-width: 992px) {
+    margin: 0px 0px 60px 0px;
+  }
+  @media (max-width: 768px) {
+    margin: 0px 0px 40px 0px;
+  }
   .title_block {
     display: flex;
     align-items: center;
@@ -1239,16 +1246,77 @@ main {
   }
   .slider__item {
     background-color: #f9f9f9;
-    box-shadow: 0px 19px 30px 0px #d4d4d4;
+    box-shadow: 0px 0px 30px 0px #d4d4d4;
     border-radius: 30px;
     padding: 60px 50px;
-    margin: 0px 30px;
+    margin: 20px 30px;
     @media (max-width: 768px) {
       padding: 30px 30px;
     }
     @media (max-width: 600px) {
       padding: 20px 20px;
-      margin: 0px 10px;
+      margin: 20px 10px;
+    }
+  }
+}
+.section8 {
+  .subtitle {
+    margin: 0px 0px 80px 0px;
+    @media (max-width: 992px) {
+      margin: 0px 0px 40px 0px;
+    }
+  }
+}
+.section8_content {
+  .item {
+    background-color: #f9f9f9;
+    box-shadow: 16px 19px 49px 0px #d4d4d4;
+    border-radius: 30px;
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .top {
+      margin: 0px 0px 80px 0px;
+      .title_item {
+        font-size: 42.9px;
+        line-height: 43px;
+        font-weight: 700;
+        letter-spacing: -0.05em;
+        color: #212121;
+        text-align: center;
+        margin: 0px 0px 70px 0px;
+      }
+      .text_content {
+        position: relative;
+        display: flex;
+        align-items: center;
+        div {
+          margin: 0px 6px 0px 0px;
+        }
+        .text {
+          font-size: 23.1px;
+          line-height: 25px;
+          font-weight: 400;
+          letter-spacing: -0.05em;
+          color: #212121;
+        }
+        img {
+          // position: absolute;
+          // left: 0;
+        }
+      }
+    }
+    .down {
+    }
+
+    .btn-primary {
+      border-radius: 11px;
+      font-size: 30.2px;
+      line-height: 30px;
+      font-weight: 400;
+      letter-spacing: -0.05em;
+      color: #212121;
     }
   }
 }

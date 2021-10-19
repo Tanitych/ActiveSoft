@@ -1446,6 +1446,19 @@ main {
   max-width: 100%;
 }
 
+.section7 {
+  margin: 0px 0px 100px 0px;
+}
+@media (max-width: 992px) {
+  .section7 {
+    margin: 0px 0px 60px 0px;
+  }
+}
+@media (max-width: 768px) {
+  .section7 {
+    margin: 0px 0px 40px 0px;
+  }
+}
 .section7 .title_block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1645,11 +1658,11 @@ main {
 }
 .section7_content .slider__item {
   background-color: #f9f9f9;
-  -webkit-box-shadow: 0px 19px 30px 0px #d4d4d4;
-          box-shadow: 0px 19px 30px 0px #d4d4d4;
+  -webkit-box-shadow: 0px 0px 30px 0px #d4d4d4;
+          box-shadow: 0px 0px 30px 0px #d4d4d4;
   border-radius: 30px;
   padding: 60px 50px;
-  margin: 0px 30px;
+  margin: 20px 30px;
 }
 @media (max-width: 768px) {
   .section7_content .slider__item {
@@ -1659,6 +1672,72 @@ main {
 @media (max-width: 600px) {
   .section7_content .slider__item {
     padding: 20px 20px;
-    margin: 0px 10px;
+    margin: 20px 10px;
   }
+}
+
+.section8 .subtitle {
+  margin: 0px 0px 80px 0px;
+}
+@media (max-width: 992px) {
+  .section8 .subtitle {
+    margin: 0px 0px 40px 0px;
+  }
+}
+
+.section8_content .item {
+  background-color: #f9f9f9;
+  -webkit-box-shadow: 16px 19px 49px 0px #d4d4d4;
+          box-shadow: 16px 19px 49px 0px #d4d4d4;
+  border-radius: 30px;
+  padding: 35px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.section8_content .item .top {
+  margin: 0px 0px 80px 0px;
+}
+.section8_content .item .top .title_item {
+  font-size: 42.9px;
+  line-height: 43px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  color: #212121;
+  text-align: center;
+  margin: 0px 0px 70px 0px;
+}
+.section8_content .item .top .text_content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section8_content .item .top .text_content div {
+  margin: 0px 6px 0px 0px;
+}
+.section8_content .item .top .text_content .text {
+  font-size: 23.1px;
+  line-height: 25px;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  color: #212121;
+}
+.section8_content .item .btn-primary {
+  border-radius: 11px;
+  font-size: 30.2px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  color: #212121;
 }
