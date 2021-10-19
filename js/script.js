@@ -8,3 +8,11 @@ $(document).ready(function () {
 $(function () {
     $("#phone").mask("+7(999) 999-9999");
 });
+
+$(function () {
+    $("#phone2").mask("+7(999) 999-9999");
+});
+
+$(function () {
+    $("#phone3").mask("+7(999) 999-9999");
+});
