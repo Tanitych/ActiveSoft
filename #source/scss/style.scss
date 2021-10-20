@@ -970,7 +970,7 @@ main {
 .section6 {
   margin: 0px 0px 60px 0px;
   @media (max-width: 768px) {
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 40px 0px;
   }
   .title {
     font-size: 70.5px;
@@ -1084,7 +1084,7 @@ main {
     align-items: center;
     margin: 0px 0px 100px 0px;
     @media (max-width: 992px) {
-      margin: 0px 0px 30px 0px;
+      margin: 0px 0px 15px 0px;
       justify-content: center;
     }
     .title {
@@ -1579,6 +1579,10 @@ main {
       margin: 0px 0px 40px 0px;
       white-space: nowrap;
       text-align: center;
+      @media (max-width: 991px) {
+        font-size: 50px;
+        margin: 0px 0px 30px 0px;
+      }
       @media (max-width: 786px) {
         margin: 0px 0px 30px 0px;
       }
