@@ -1268,6 +1268,17 @@ main {
   }
 }
 .section8_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 25px;
+  @media (max-width: 1200px) {
+    column-gap: 20px;
+  }
+  @media (max-width: 992px) {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
   .item {
     background-color: #f9f9f9;
     box-shadow: 16px 19px 49px 0px #d4d4d4;
@@ -1278,6 +1289,9 @@ main {
     justify-content: space-between;
     .top {
       margin: 0px 0px 80px 0px;
+      @media (max-width: 992px) {
+        margin: 0px 0px 30px 0px;
+      }
       .title_item {
         font-size: 42.9px;
         line-height: 43px;
@@ -1286,11 +1300,22 @@ main {
         color: #212121;
         text-align: center;
         margin: 0px 0px 70px 0px;
+        @media (max-width: 992px) {
+          margin: 0px 0px 30px 0px;
+        }
+        @media (max-width: 768px) {
+          font-size: 30px;
+          margin: 0px 0px 20px 0px;
+        }
       }
       .text_content {
         position: relative;
         display: flex;
         align-items: center;
+        margin: 0px 0px 20px 0px;
+        @media (max-width: 992px) {
+          margin: 0px 0px 15px 0px;
+        }
         div {
           margin: 0px 6px 0px 0px;
         }
@@ -1300,6 +1325,9 @@ main {
           font-weight: 400;
           letter-spacing: -0.05em;
           color: #212121;
+          @media (max-width: 768px) {
+            font-size: 18px;
+          }
         }
         img {
           // position: absolute;
@@ -1308,6 +1336,14 @@ main {
       }
     }
     .down {
+      .label {
+        font-size: 21.9px;
+        line-height: 22px;
+        font-weight: 400;
+        letter-spacing: -0.05em;
+        color: #212121;
+        text-align: center;
+      }
     }
 
     .btn-primary {
@@ -1317,6 +1353,13 @@ main {
       font-weight: 400;
       letter-spacing: -0.05em;
       color: #212121;
+      width: 100%;
+      padding: 15px 0px;
+      @media (max-width: 768px) {
+        font-size: 20px;
+        line-height: 110%;
+        padding: 10px 0px;
+      }
     }
   }
 }

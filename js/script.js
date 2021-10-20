@@ -17,6 +17,18 @@ $(function () {
     $("#phone3").mask("+7(999) 999-9999");
 });
 
+$(function () {
+    $("#phone4").mask("+7(999) 999-9999");
+});
+
+$(function () {
+    $("#phone5").mask("+7(999) 999-9999");
+});
+
+$(function () {
+    $("#phone6").mask("+7(999) 999-9999");
+});
+
 $(document).ready(function () {
     $('.slider').slick({
         arrows: false,

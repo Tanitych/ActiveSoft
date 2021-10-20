@@ -1685,6 +1685,32 @@ main {
   }
 }
 
+.section8_content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 40px 1fr 40px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+  row-gap: 25px;
+}
+@media (max-width: 1200px) {
+  .section8_content {
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .section8_content {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .section8_content .item {
   background-color: #f9f9f9;
   -webkit-box-shadow: 16px 19px 49px 0px #d4d4d4;
@@ -1705,6 +1731,11 @@ main {
 .section8_content .item .top {
   margin: 0px 0px 80px 0px;
 }
+@media (max-width: 992px) {
+  .section8_content .item .top {
+    margin: 0px 0px 30px 0px;
+  }
+}
 .section8_content .item .top .title_item {
   font-size: 42.9px;
   line-height: 43px;
@@ -1714,6 +1745,17 @@ main {
   text-align: center;
   margin: 0px 0px 70px 0px;
 }
+@media (max-width: 992px) {
+  .section8_content .item .top .title_item {
+    margin: 0px 0px 30px 0px;
+  }
+}
+@media (max-width: 768px) {
+  .section8_content .item .top .title_item {
+    font-size: 30px;
+    margin: 0px 0px 20px 0px;
+  }
+}
 .section8_content .item .top .text_content {
   position: relative;
   display: -webkit-box;
@@ -1722,6 +1764,12 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0px 0px 20px 0px;
+}
+@media (max-width: 992px) {
+  .section8_content .item .top .text_content {
+    margin: 0px 0px 15px 0px;
+  }
 }
 .section8_content .item .top .text_content div {
   margin: 0px 6px 0px 0px;
@@ -1733,6 +1781,19 @@ main {
   letter-spacing: -0.05em;
   color: #212121;
 }
+@media (max-width: 768px) {
+  .section8_content .item .top .text_content .text {
+    font-size: 18px;
+  }
+}
+.section8_content .item .down .label {
+  font-size: 21.9px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  color: #212121;
+  text-align: center;
+}
 .section8_content .item .btn-primary {
   border-radius: 11px;
   font-size: 30.2px;
@@ -1740,4 +1801,13 @@ main {
   font-weight: 400;
   letter-spacing: -0.05em;
   color: #212121;
+  width: 100%;
+  padding: 15px 0px;
+}
+@media (max-width: 768px) {
+  .section8_content .item .btn-primary {
+    font-size: 20px;
+    line-height: 110%;
+    padding: 10px 0px;
+  }
 }
