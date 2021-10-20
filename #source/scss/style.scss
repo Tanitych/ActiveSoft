@@ -595,6 +595,7 @@ main {
       font-size: 50px;
       line-height: 110%;
       margin-bottom: 35px;
+      margin-top: 60px;
     }
     @media (max-width: 768px) {
       font-size: 40px;
@@ -689,7 +690,7 @@ main {
   padding: 0px 10px;
   margin: 50px 0px 150px 0px;
   @media (max-width: 768px) {
-    margin: 0px 0px 100px 0px;
+    margin: 40px 0px 100px 0px;
   }
   .modal_form {
     border: 1px solid #212121;
