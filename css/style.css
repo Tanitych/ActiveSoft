@@ -414,7 +414,7 @@ main {
 }
 @media (max-width: 530px) {
   .section1 .main_title {
-    font-size: 32px;
+    font-size: 35px;
   }
 }
 .section1 .subtitle {
@@ -2161,6 +2161,11 @@ main {
 
 footer .nav-item {
   margin: 0px 20px;
+}
+@media (max-width: 450px) {
+  footer .nav-item {
+    margin: 0px 0px 0px 0px;
+  }
 }
 footer .nav-link {
   font-size: 27px;

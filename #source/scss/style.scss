@@ -334,7 +334,7 @@ main {
       margin: 0px auto 25px auto;
     }
     @media (max-width: 530px) {
-      font-size: 32px;
+      font-size: 35px;
     }
   }
   .subtitle {
@@ -1626,6 +1626,9 @@ main {
 footer {
   .nav-item {
     margin: 0px 20px;
+    @media (max-width: 450px) {
+      margin: 0px 0px 0px 0px;
+    }
   }
   .nav-link {
     font-size: 27px;
