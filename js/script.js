@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    $('.header__burger').click(function (event) {
-        $('.header__burger,.header__menu').toggleClass('active');
+    $('.header__burger, .header__link').click(function (event) {
+        $('.header__burger,.header__menu, .header__link').toggleClass('active');
         $('body').toggleClass('lock');
     });
 });
@@ -91,7 +91,7 @@ $(document).ready(function () {
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Oct 22, 2021 09:37:25").getTime();
+var countDownDate = new Date("Oct 23, 2021 09:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
